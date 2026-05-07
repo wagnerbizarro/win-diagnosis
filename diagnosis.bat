@@ -5,18 +5,38 @@
 echo starting.....
 pause
 
+echo System Uptime:
+systeminfo | find "System Boot Time" 
+pause
+cls
+
 echo System Info:
 systeminfo
 pause
 cls
 
-echo Network:
+echo Memory Usage percentage:
+wmic cpu get loadpercentage
+pause 
+cls
+
+echo Process List:
+tasklist /v
+pause 
+cls
+
+echo Disk Usage:
+wmic logicaldisk get size,freespace,caption
+pause
+cls
+
+echo Network configuration:
 ipconfig 
 pause
 cls
 
-echo Licensing:
-slmgr /div
+echo Network Connected:
+ping 8.8.8.8
 pause
 cls
 
