@@ -1,6 +1,6 @@
 ::Windows Diagnosis
 ::Autor: Wagner Bizarro
-::Date:07/05/2026
+::Creation Date:07/05/2026
 
 echo starting.....
 pause
