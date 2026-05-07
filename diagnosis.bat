@@ -8,16 +8,20 @@ pause
 echo System Info:
 systeminfo
 pause
+cls
 
 echo Network:
 ipconfig 
 pause
+cls
 
 echo Licensing:
 slmgr /div
 pause
+cls
 
 echo bye bye.....
 pause
+cls
 
 exit
