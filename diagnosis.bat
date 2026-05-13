@@ -1,7 +1,7 @@
 ::Windows Diagnosis
 ::Autor: Wagner Bizarro
 ::Creation Date:07/05/2026
-
+@echo off
 echo starting.....
 pause
 
